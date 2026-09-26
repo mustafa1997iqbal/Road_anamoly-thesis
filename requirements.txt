@@ -1,0 +1,12 @@
+# Core dependencies used across the data preparation, training, and
+# evaluation scripts in this repository.
+ultralytics>=8.4.0
+torch>=2.8.0
+Pillow>=10.0.0
+PyYAML>=6.0
+numpy>=1.24.0
+
+# For the ROS 2 package (ros_package/), install ROS 2 (Humble or later)
+# separately via your platform's ROS 2 installation instructions, then:
+#   rclpy, sensor_msgs, vision_msgs, opencv-python
+# are provided by the ROS 2 distribution / apt, not pip.

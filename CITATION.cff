@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or refer to this work, please cite it as below."
+title: "Vision-Based Detection of Road Anomalies for Outdoor Infrastructure Monitoring"
+type: software
+authors:
+  - family-names: "Iqbal"
+    given-names: "Mustafa"
+    email: "mustafa1997iqbal@gmail.com"
+date-released: 2026-10-04
+license: MIT
+repository-code: "https://github.com/mustafa1997iqbal/Road_anamoly-thesis"
+keywords:
+  - object detection
+  - road damage detection
+  - YOLO
+  - domain adaptation
+  - ROS 2
+  - infrastructure monitoring
+abstract: >-
+  Code repository accompanying the Master's thesis "Vision-Based Detection
+  of Road Anomalies for Outdoor Infrastructure Monitoring", Technische
+  Hochschule Deggendorf, 2026. Covers dataset preparation, YOLO baseline
+  training and cross-domain evaluation on RDD2022, fine-tuning on a
+  self-collected bicycle-lane dataset, and real-time deployment via ROS 2
+  on Raspberry Pi hardware.
