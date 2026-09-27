@@ -26,6 +26,20 @@ fixed, hash-verified location
 MD5: confirmed via `md5sum` during verification, see thesis text) prior
 to final evaluation, to guarantee reproducibility of reported results.
 
+## Field-Test Handoff: road_anomaly_nano_best.pt
+
+The `road_anomaly_nano_best.pt` file sent to a project collaborator for
+real-world Raspberry Pi field testing (Section 3.4.5) is a renamed copy
+of the **Adapted-Nano-BicycleLane** checkpoint (`finetune_selfcollected_final/weights/best.pt`),
+produced via `prepare_handoff.py`. This copy is hash-verified:
+
+- Size: 6.0 MB
+- MD5: `61b86954410bc07278c8d569f3933dae`
+
+This confirms the field-test results reported in Section 3.4.5 (and any
+follow-up tests using this same file) apply to the Adapted-Nano-BicycleLane
+model specifically, not a different or unverified checkpoint.
+
 ## Evaluation dataset configs
 
 Generated via `scripts/data_preparation/build_eval_yaml.py`:
